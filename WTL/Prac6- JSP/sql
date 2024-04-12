@@ -1,0 +1,19 @@
+mysql> CREATE TABLE `employee1` (
+    ->    `id` int(3) NOT NULL,
+    ->    `first_name` varchar(20) DEFAULT NULL,
+    ->    `last_name` varchar(20) DEFAULT NULL,
+    ->    `username` varchar(250) DEFAULT NULL,
+    ->    `password` varchar(20) DEFAULT NULL,
+    ->    `address` varchar(45) DEFAULT NULL,
+    ->    `contact` varchar(45) DEFAULT NULL,
+    ->    PRIMARY KEY (`id`)
+    ->    );
+Query OK, 0 rows affected, 1 warning (0.04 sec)
+
+mysql> SELECT * FROM employee1;
+Empty set (0.00 sec)
+
+mysql> insert into employee1 values(1,"Apurva","Kulkarni","Appu","123","Pune",7447454586);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SELECT * FROM employee1;
