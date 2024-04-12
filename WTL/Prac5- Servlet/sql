@@ -1,0 +1,9 @@
+create table employee(empid varchar(10),empname varchar(10),sal int);    
+      
+insert into employee values('e001','raj',10000);    
+insert into employee values('e002','harry',20000);    
+insert into employee values('e003','sunil',30000);    
+insert into employee values('e004','pollock',40000);   
+insert into employee values('e005','jonty',50000);   
+insert into employee values('e006','kallis',60000);    
+insert into employee values('e007','richard',70000);  
