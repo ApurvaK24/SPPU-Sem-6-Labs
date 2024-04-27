@@ -1,0 +1,22 @@
+public class calculator {
+    public integer f { get; set;}
+    public integer s { get; set;}
+    public integer r { get; set;}
+    
+    public void Addition()
+    {
+        r=f+s;
+    }
+    public void Subtraction()
+    {
+        r=f-s;
+    }
+    public void Multiplication()
+    {
+        r=f*s;
+    }
+    public void Division()
+    {
+        r=f/s;
+    }
+}

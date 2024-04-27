@@ -1,0 +1,20 @@
+<apex:page controller="calculator">
+    <apex:sectionHeader title="Apurva" subtitle="Calculator"/>
+    <apex:form>
+        <apex:pageBlock title="Simple Calculator">
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="Addition" action="{!Addition}" reRender="r"/>
+                <apex:commandButton value="Subtraction" action="{!Subtraction}" reRender="r"/>
+                <apex:commandButton value="Multiplication" action="{!Multiplication}" reRender="r"/>
+                <apex:commandButton value="Division" action="{!Division}" reRender="r"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockSection title="Calculator">
+                <apex:inputText label="Enter First Number" value="{!f}"/>
+                <apex:inputText label="Enter Second Number" value="{!s}"/>
+                <apex:outputText label="Result" value="{!r}" id="r"/>
+            </apex:pageBlockSection>
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
